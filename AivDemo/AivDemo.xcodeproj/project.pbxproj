@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C90515DB2CA25625006CC47C /* DashboardViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90515DA2CA25625006CC47C /* DashboardViewModelTests.swift */; };
 		C971A4A52CA20407000750DD /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C971A4A42CA20407000750DD /* SearchBar.swift */; };
 		C971A4B42CA204A5000750DD /* WeatherDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C971A4AD2CA204A5000750DD /* WeatherDetailView.swift */; };
 		C971A4B62CA204A5000750DD /* ForecastListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C971A4B02CA204A5000750DD /* ForecastListView.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C90515DA2CA25625006CC47C /* DashboardViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModelTests.swift; sourceTree = "<group>"; };
 		C971A4A42CA20407000750DD /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		C971A4AD2CA204A5000750DD /* WeatherDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDetailView.swift; sourceTree = "<group>"; };
 		C971A4B02CA204A5000750DD /* ForecastListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastListView.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				C9E6B5532CA1C777001011F8 /* AivDemoTests.swift */,
+				C90515DA2CA25625006CC47C /* DashboardViewModelTests.swift */,
 			);
 			path = AivDemoTests;
 			sourceTree = "<group>";
@@ -199,9 +202,9 @@
 		C9E6B56C2CA1C7A0001011F8 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				C9E6B56F2CA1C7B7001011F8 /* Model */,
 				C971A4B32CA204A5000750DD /* View */,
 				C9E6B5762CA1C807001011F8 /* ViewModel */,
-				C9E6B56F2CA1C7B7001011F8 /* Model */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -405,6 +408,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9E6B5542CA1C777001011F8 /* AivDemoTests.swift in Sources */,
+				C90515DB2CA25625006CC47C /* DashboardViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
